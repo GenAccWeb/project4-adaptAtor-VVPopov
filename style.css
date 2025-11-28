@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    
+    font-family: FreeMono, monospace;
+background-color: gray;
+color: black;
+    text-align: center;
+    background-attachment: fixed; 
+  min-height: 20vh;
+
+}
+/* Блок меню */
+
+.header {
+    
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(74, 0, 222, 1);
+    
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    padding: 1rem 0;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 1030;
+ 
+}
+
+
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 0;
+    
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    
+    background-color: rgba(74, 0, 222, 1);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 140, 0);
+    color: black;
+    transition: 1s;
+    padding: 8px 14px;
+}
+
+
+.main {
+    margin-top: 50px;
+    padding-top: 80px; }
+
+/* Блок контента номер 2 */
+.block2 {
+
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+
+ 
+.card img {
+    width: 100%;
+}
+.card-title {
+    color: brown;
+}
+
+
+.card {
+    width: 350px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+    padding: 20px;
+    margin: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 10px 0px 10px 0px rgba(63, 0, 145, 0.2);
+
+}
+
+
+.card img {
+    width: 360px;
+    margin: 10px;
+}
+
+.title-block2 {
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+
+.card:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+
+.card-text2 {
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+/* Блок контента номер 3 */
+.block3 {
+
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+}
+
+.card {
+    border-width: 10px;
+    border-color: white;
+}
+
+
+
+
+
+/* Блок контента номер 4 */
+.block4 {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 30px;
+    padding: 20px;
+}
+.col-md-6 img {
+    width: 100%;
+}
+
+
+/* Блок футера */
+
+
+.footer {
+    text-align:center;
+    background-color: brown;
+    color: white;
+    margin: 25px;
+    padding: 30px;
+    font-size: 14px;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+        
+}
+.footer img {
+    width: 80px;
+}
+.footer-text1 {
+    margin: 20px;
+}
+.footer-text2 {
+    margin: 15px;
+}
